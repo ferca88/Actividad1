@@ -11,8 +11,8 @@ public class rampa {
         final int escalones = 2;
         double alturaEscalones = 13;//en centímetros
         double longuitud;
-        longuitud = (((alturaEscalones*escalones)/pendiente)*100)/100;//formateado a metros
-        System.out.println("La longuitud de la rampa es: "+((double)Math.round(longuitud * 100d) / 100d)+ " mts");//formateado a dos decimales
+        longuitud = ((alturaEscalones*escalones)/pendiente)*100;//formateado a centímetros
+        System.out.println("La longuitud de la rampa es: "+((double)Math.round(longuitud * 100d) / 100d)+ " cm");//formateado a dos decimales
         
         
          
